@@ -8,12 +8,27 @@
 | ------------- | ------------- |--------------------| -- | -- |
 
 **выводы**
-1 - активный промотор
-2,3 - энхансеры
-4 - соабый промотор
-5,6 - транскрибируемые регионы
-7, 8 гетерохроматин
-10 - транскрибируемый регион или энхансер
+1,6 (Большой процент RefSeqGene.),7(нет меток), 9(нет меток)- транскрибируется \t
+2, 4, 5 - энхансер (H3k4me1StdAlnRep1.bam, H3k4me2StdAlnRep1.bam, H3k27acStdAlnRep1.bam) \t
+3(нет меток), 8 - промотер \t
+10(нет меток) -гетерохроматин \t
 
 ![image](https://user-images.githubusercontent.com/60808830/161910628-6aa60a02-77aa-4a63-bf84-c4de56606273.png)
+**Бонус**
+![image](https://user-images.githubusercontent.com/60808830/161913262-86d349db-c5b9-4386-bdae-fd40674f3c62.png)
 
+
+! zip -r model_output.zip LearnModelOut/
+AR = ['Transcribed', 'Enhancer', 'Promoter', 'Enhancer', 'Enhancer', 'Transcribed', 'Transcribed',
+                'Promoter', 'Transcribed', 'Heterochromatin']
+with open(f'/content/HeLa-S3_10_expanded.bed', 'r') as file1:
+    with open(f'/content/result.bed', 'a') as file2:
+        n = file1.readlines()
+        for i in n:
+            if i[:5] == 'track' or i[:5] == 'brows':
+                file2.write(i)
+            else:
+                splitted_i = i.split('\t')
+                idx = int(splitted_i[3])
+                splitted_i[3] = splitted_i[3]+"_" + analysis_res[idx-1]
+                file2.write('\t'.join(splitted_i))
