@@ -6,3 +6,13 @@
 | ![image](https://user-images.githubusercontent.com/60808830/161845100-05a7ddec-cd74-4427-93d4-55081712d738.png) |
 ![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) |
 | ------------- | ------------- |
+
+1 - активный промотор
+2,3 - энхансеры
+4 - соабый промотор
+5,6 - транскрибируемые регионы
+7, 8 гетерохроматин
+10 - транскрибируемый регион или энхансер
+
+![image](https://user-images.githubusercontent.com/60808830/161910628-6aa60a02-77aa-4a63-bf84-c4de56606273.png)
+
