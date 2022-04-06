@@ -19,5 +19,6 @@
 10(нет меток) -гетерохроматин 
 
 **Бонус**
+
 скпипт - binus.ipunb
 ![image](https://user-images.githubusercontent.com/60808830/161913262-86d349db-c5b9-4386-bdae-fd40674f3c62.png)
