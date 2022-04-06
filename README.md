@@ -4,7 +4,7 @@
 
 
 **анализ**
-|![image](https://user-images.githubusercontent.com/60808830/161910628-6aa60a02-77aa-4a63-bf84-c4de56606273.png) | ![image](https://user-images.githubusercontent.com/60808830/161845100-05a7ddec-cd74-4427-93d4-55081712d738.png)  | !![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image]![image](https://user-images.githubusercontent.com/60808830/161915116-16433c95-67ef-441a-8549-b7b469e203ac.png) |
+|![image](https://user-images.githubusercontent.com/60808830/161915427-5fcdbb7d-7eea-4722-ad74-a1b1424344a2.png) | ![image](https://user-images.githubusercontent.com/60808830/161845100-05a7ddec-cd74-4427-93d4-55081712d738.png)  | !![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image](https://user-images.githubusercontent.com/60808830/161915358-09ed4622-6e99-4601-9b58-9c846c063620.png)| ![image](https://user-images.githubusercontent.com/60808830/161915116-16433c95-67ef-441a-8549-b7b469e203ac.png) |
 | ------------- | ------------- |--------------------| -- | -- |
 
 **выводы**
