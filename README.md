@@ -8,12 +8,14 @@
 | ------------- | ------------- |--------------------| -- | -- |
 
 **выводы**
-1,6 (Большой процент RefSeqGene.),7(нет меток), 9(нет меток)- транскрибируется \t
-2, 4, 5 - энхансер (H3k4me1StdAlnRep1.bam, H3k4me2StdAlnRep1.bam, H3k27acStdAlnRep1.bam) \t
-3(нет меток), 8 - промотер \t
-10(нет меток) -гетерохроматин \t
+1,6 (Большой процент RefSeqGene.),7(нет меток), 9(нет меток)- транскрибируется
 
-![image](https://user-images.githubusercontent.com/60808830/161910628-6aa60a02-77aa-4a63-bf84-c4de56606273.png)
+2, 4, 5 - энхансер (H3k4me1StdAlnRep1.bam, H3k4me2StdAlnRep1.bam, H3k27acStdAlnRep1.bam)
+
+3(нет меток), 8 - промотер 
+
+10(нет меток) -гетерохроматин 
+
 **Бонус**
 ![image](https://user-images.githubusercontent.com/60808830/161913262-86d349db-c5b9-4386-bdae-fd40674f3c62.png)
 
