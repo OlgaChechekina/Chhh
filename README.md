@@ -4,7 +4,7 @@
 
 
 **анализ**
-|![image](https://user-images.githubusercontent.com/60808830/161910628-6aa60a02-77aa-4a63-bf84-c4de56606273.png) | ![image](https://user-images.githubusercontent.com/60808830/161845100-05a7ddec-cd74-4427-93d4-55081712d738.png)  | !![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) |
+|![image](https://user-images.githubusercontent.com/60808830/161910628-6aa60a02-77aa-4a63-bf84-c4de56606273.png) | ![image](https://user-images.githubusercontent.com/60808830/161845100-05a7ddec-cd74-4427-93d4-55081712d738.png)  | !![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image](https://user-images.githubusercontent.com/60808830/161845182-8f76f3c5-4fed-40c9-be3b-59518bd36ede.png) | ![image]![image](https://user-images.githubusercontent.com/60808830/161915116-16433c95-67ef-441a-8549-b7b469e203ac.png) |
 | ------------- | ------------- |--------------------| -- | -- |
 
 **выводы**
@@ -17,20 +17,5 @@
 10(нет меток) -гетерохроматин 
 
 **Бонус**
+скпипт - binus.ipunb
 ![image](https://user-images.githubusercontent.com/60808830/161913262-86d349db-c5b9-4386-bdae-fd40674f3c62.png)
-
-
-! zip -r model_output.zip LearnModelOut/
-AR = ['Transcribed', 'Enhancer', 'Promoter', 'Enhancer', 'Enhancer', 'Transcribed', 'Transcribed',
-                'Promoter', 'Transcribed', 'Heterochromatin']
-with open(f'/content/HeLa-S3_10_expanded.bed', 'r') as file1:
-    with open(f'/content/result.bed', 'a') as file2:
-        n = file1.readlines()
-        for i in n:
-            if i[:5] == 'track' or i[:5] == 'brows':
-                file2.write(i)
-            else:
-                splitted_i = i.split('\t')
-                idx = int(splitted_i[3])
-                splitted_i[3] = splitted_i[3]+"_" + analysis_res[idx-1]
-                file2.write('\t'.join(splitted_i))
